@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FF6F61; /* Cambio de color al pasar el ratón */
+}
+
+section {
+    padding: 80px 0;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 1.3em;
+    line-height: 1.4;
+}
+
+.proyecto {
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto h3 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.proyecto p {
+    color: #555;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.proyecto .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.proyecto .btn:hover {
+    background-color: #555;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+    color: #555;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
